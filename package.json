@@ -1,0 +1,19 @@
+{
+  "name": "zona-73-kombinat",
+  "version": "1.0.0",
+  "private": false,
+  "description": "ZONA-73: KOMBINAT — A 3D Slavapunk Extraction Shooter in TypeScript & WebGL",
+  "scripts": {
+    "build": "node scripts/build_game.js"
+  },
+  "keywords": [
+    "3d",
+    "webgl",
+    "typescript",
+    "extraction-shooter",
+    "slavapunk",
+    "tarkov",
+    "stalker"
+  ],
+  "license": "MIT"
+}
