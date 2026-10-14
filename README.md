@@ -21,7 +21,7 @@ A playable, browser-based first-person 3D Slavapunk extraction shooter inspired 
 
 ## Project Structure
 
-- `index.html` — Self-contained playable build (open directly in any desktop browser or host via GitHub Pages).
+- `index.html` / `dist/index.html` — Self-contained playable build (open directly in any desktop browser or host via GitHub Pages).
 - `src/types/game.ts` — Core TypeScript interfaces for weapons, items, AI, ragdolls, blood decals, and persistence.
 - `src/data/itemsAndWeapons.ts` — Weapon ballistics, 26 item templates, trader catalogs, and custom SVG vector illustrations (`renderItemGraphicSVG`).
 - `src/engine/textures.ts` — 16 procedural PBR-style and alpha-cutout textures (`grass_alpha`, `branch_alpha`, `gunmetal`, etc.).
@@ -32,4 +32,4 @@ A playable, browser-based first-person 3D Slavapunk extraction shooter inspired 
 - `src/engine/audioEngine.ts` — Web Audio API spatial sound synthesizer.
 - `src/engine/inventoryAndPersistence.ts` — Spatial grid inventory logic and `IndexedDB` / `localStorage` persistence.
 - `src/ui/gameApp.ts` — Main application loop, HUD, Stash, Traders, Hideout, and Settings UI.
-- `scripts/build_game.js` — Bundles the modular TypeScript sources into `index.html`.
+- `scripts/build_game.js` — Bundles the modular TypeScript sources into `dist/index.html`.
